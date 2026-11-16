@@ -1,0 +1,106 @@
+-- Kiểm tra Cube
+SELECT
+    [Measures].[Fact Listing Count] ON COLUMNS
+FROM [Cube];
+
+-- ROLL-UP
+-- Tổng hợp số tin đăng theo miền
+SELECT
+    [Measures].[Fact Listing Count] ON COLUMNS,
+
+    NON EMPTY
+        [Dim Location].[Location].Levels(1).Members ON ROWS
+
+FROM [Cube];
+
+-- DRILL-DOWN
+-- Mở rộng Miền Nam xuống các tỉnh/thành sau sáp nhập
+WITH
+SET [MienNam] AS
+    FILTER(
+        [Dim Location].[Location].Levels(1).Members,
+
+        [Dim Location].[Location].CurrentMember.Name = "Miền Nam"
+    )
+
+SELECT
+    {[Measures].[Fact Listing Count]} ON COLUMNS,
+
+    NON EMPTY
+        DRILLDOWNMEMBER(
+            [MienNam],[MienNam]
+        ) ON ROWS
+
+FROM [Cube];
+
+-- SLICE
+-- Thống kê số lượng tin đăng dưới 1 tỷ theo miền
+WITH
+MEMBER [Measures].[Số tin đăng dưới 1 tỷ]
+AS [Measures].[Fact Listing Count],
+FORMAT_STRING = '#,##0'
+
+SELECT
+    {[Measures].[Số tin đăng dưới 1 tỷ]} ON COLUMNS,
+
+    NON EMPTY
+        [Dim Location].[Location].Levels(1).Members
+    ON ROWS
+
+FROM [Cube]
+
+WHERE (
+    [Dim Price Segment].[Segment Key].&[1]
+);
+
+-- DICE
+-- Lọc kết hợp vùng và nhóm diện tích
+SELECT
+    {[Measures].[Fact Listing Count]} ON COLUMNS,
+
+    NON EMPTY
+        CROSSJOIN(
+            FILTER(
+                [Dim Location].[Location].Levels(1).Members,
+
+                [Dim Location].[Location].CurrentMember.Name = "Miền Nam"
+                OR
+                [Dim Location].[Location].CurrentMember.Name = "Miền Trung"
+            ),
+
+            {
+                [Dim Size Group].[Size Key].&[2],
+                [Dim Size Group].[Size Key].&[3]
+            }
+        ) ON ROWS
+
+FROM [Cube];
+
+-- PIVOT
+-- So sánh vùng và phân khúc giá
+-- Vùng theo hàng, phân khúc giá theo cột
+SELECT
+    NON EMPTY
+        [Dim Price Segment].[Segment Key].Levels(1).Members
+    ON COLUMNS,
+
+    NON EMPTY
+        [Dim Location].[Location].Levels(1).Members
+    ON ROWS
+
+FROM [Cube]
+-- Hoán đổi hàng và cột 
+SELECT
+    NON EMPTY
+        [Dim Location].[Location].Levels(1).Members
+    ON COLUMNS,
+
+    NON EMPTY
+        [Dim Price Segment].[Segment Key].Levels(1).Members
+    ON ROWS
+
+FROM [Cube]
+
+WHERE (
+    [Measures].[Fact Listing Count]
+);

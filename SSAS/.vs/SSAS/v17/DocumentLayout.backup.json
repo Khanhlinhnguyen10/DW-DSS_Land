@@ -1,0 +1,124 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\DW-DSS_Land\\SSAS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9903B0B9-6F09-46BB-262E-E8B312FA0CED}|SSAS\\SSAS.dwproj|F:\\DW-DSS_Land\\SSAS\\SSAS\\Cube.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{9903B0B9-6F09-46BB-262E-E8B312FA0CED}|SSAS\\SSAS.dwproj|solutionrelative:SSAS\\Cube.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9903B0B9-6F09-46BB-262E-E8B312FA0CED}|SSAS\\SSAS.dwproj|F:\\DW-DSS_Land\\SSAS\\SSAS\\Dim Land Profile.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{9903B0B9-6F09-46BB-262E-E8B312FA0CED}|SSAS\\SSAS.dwproj|solutionrelative:SSAS\\Dim Land Profile.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9903B0B9-6F09-46BB-262E-E8B312FA0CED}|SSAS\\SSAS.dwproj|F:\\DW-DSS_Land\\SSAS\\SSAS\\Dim Price Segment.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{9903B0B9-6F09-46BB-262E-E8B312FA0CED}|SSAS\\SSAS.dwproj|solutionrelative:SSAS\\Dim Price Segment.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9903B0B9-6F09-46BB-262E-E8B312FA0CED}|SSAS\\SSAS.dwproj|F:\\DW-DSS_Land\\SSAS\\SSAS\\Dim Size Group.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{9903B0B9-6F09-46BB-262E-E8B312FA0CED}|SSAS\\SSAS.dwproj|solutionrelative:SSAS\\Dim Size Group.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9903B0B9-6F09-46BB-262E-E8B312FA0CED}|SSAS\\SSAS.dwproj|F:\\DW-DSS_Land\\SSAS\\SSAS\\Dim Time.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{9903B0B9-6F09-46BB-262E-E8B312FA0CED}|SSAS\\SSAS.dwproj|solutionrelative:SSAS\\Dim Time.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9903B0B9-6F09-46BB-262E-E8B312FA0CED}|SSAS\\SSAS.dwproj|F:\\DW-DSS_Land\\SSAS\\SSAS\\Dim Location.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{9903B0B9-6F09-46BB-262E-E8B312FA0CED}|SSAS\\SSAS.dwproj|solutionrelative:SSAS\\Dim Location.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{7cc9e714-2774-4fc6-8631-a07eee703286}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Dim Size Group.dim [Design]",
+              "DocumentMoniker": "F:\\DW-DSS_Land\\SSAS\\SSAS\\Dim Size Group.dim",
+              "RelativeDocumentMoniker": "SSAS\\Dim Size Group.dim",
+              "ToolTip": "F:\\DW-DSS_Land\\SSAS\\SSAS\\Dim Size Group.dim [Design]",
+              "RelativeToolTip": "SSAS\\Dim Size Group.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-11-16T08:49:21.242Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Dim Land Profile.dim [Design]",
+              "DocumentMoniker": "F:\\DW-DSS_Land\\SSAS\\SSAS\\Dim Land Profile.dim",
+              "RelativeDocumentMoniker": "SSAS\\Dim Land Profile.dim",
+              "ToolTip": "F:\\DW-DSS_Land\\SSAS\\SSAS\\Dim Land Profile.dim [Design]",
+              "RelativeToolTip": "SSAS\\Dim Land Profile.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-11-16T08:14:20.047Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Dim Price Segment.dim [Design]",
+              "DocumentMoniker": "F:\\DW-DSS_Land\\SSAS\\SSAS\\Dim Price Segment.dim",
+              "RelativeDocumentMoniker": "SSAS\\Dim Price Segment.dim",
+              "ToolTip": "F:\\DW-DSS_Land\\SSAS\\SSAS\\Dim Price Segment.dim [Design]",
+              "RelativeToolTip": "SSAS\\Dim Price Segment.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-11-16T08:14:18.965Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Dim Location.dim [Design]",
+              "DocumentMoniker": "F:\\DW-DSS_Land\\SSAS\\SSAS\\Dim Location.dim",
+              "RelativeDocumentMoniker": "SSAS\\Dim Location.dim",
+              "ToolTip": "F:\\DW-DSS_Land\\SSAS\\SSAS\\Dim Location.dim [Design]",
+              "RelativeToolTip": "SSAS\\Dim Location.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-11-16T08:14:17.45Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Dim Time.dim [Design]",
+              "DocumentMoniker": "F:\\DW-DSS_Land\\SSAS\\SSAS\\Dim Time.dim",
+              "RelativeDocumentMoniker": "SSAS\\Dim Time.dim",
+              "ToolTip": "F:\\DW-DSS_Land\\SSAS\\SSAS\\Dim Time.dim [Design]",
+              "RelativeToolTip": "SSAS\\Dim Time.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-11-16T08:14:14.428Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Cube.cube [Design]",
+              "DocumentMoniker": "F:\\DW-DSS_Land\\SSAS\\SSAS\\Cube.cube",
+              "RelativeDocumentMoniker": "SSAS\\Cube.cube",
+              "ToolTip": "F:\\DW-DSS_Land\\SSAS\\SSAS\\Cube.cube [Design]",
+              "RelativeToolTip": "SSAS\\Cube.cube [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-11-16T08:11:37.463Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
