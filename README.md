@@ -5,7 +5,7 @@
 
 ---
 ## 📌 TỔNG QUAN DỰ ÁN
-**KHO DỮ LIỆU HỖ TRỢ RA QUYẾT ĐỊNH ĐỊNH GIÁ & ĐẦU TƯ BẤT ĐỘNG SẢN CÁ NHÂN** là hệ thống Kinh doanh thông minh (BI) và Hỗ trợ ra quyết định (DSS) được xây dựng nhằm hỗ trợ định giá đất và tư vấn đầu tư bất động sản cá nhân tại Việt Nam. Ứng dụng phương pháp luận Bottom-up của Ralph Kimball cùng kiến trúc Lược đồ hình sao (Star Schema), hệ thống xử lý hơn 236.226 tin đăng thô trên 63 tỉnh/thành phố, cung cấp bộ chỉ số tham chiếu mặt bằng giá, so sánh khu vực và sàng lọc danh mục đầu tư trực quan
+**KHO DỮ LIỆU HỖ TRỢ RA QUYẾT ĐỊNH ĐỊNH GIÁ & ĐẦU TƯ BẤT ĐỘNG SẢN CÁ NHÂN** là hệ thống Kinh doanh thông minh (BI) và Hỗ trợ ra quyết định (DSS) được xây dựng nhằm hỗ trợ định giá đất và tư vấn đầu tư bất động sản cá nhân tại Việt Nam. Ứng dụng phương pháp luận Bottom-up của Ralph Kimball cùng kiến trúc Lược đồ hình sao, hệ thống xử lý hơn 236.226 tin đăng thô trên 63 tỉnh/thành phố, cung cấp bộ chỉ số tham chiếu mặt bằng giá, so sánh khu vực và sàng lọc danh mục đầu tư trực quan
 
 ---
 ## ✨ CÁC TÍNH NĂNG & KIẾN TRÚC XỬ LÝ CHÍNH
