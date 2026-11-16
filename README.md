@@ -1,5 +1,5 @@
 # 🎓 DỰ ÁN: KHO DỮ LIỆU HỖ TRỢ RA QUYẾT ĐỊNH ĐỊNH GIÁ & ĐẦU TƯ BẤT ĐỘNG SẢN CÁ NHÂN
-> **Môn học:** Kho dữ liệu và hệ thống hỗ trợ ra quyết định 
+> **Môn học:** Kho dữ liệu và hệ thống hỗ trợ ra quyết định  
 > **Công nghệ sử dụng:** Python, SQL Sever, SSIS, SSAS, Power BI  
 > **Công cụ hỗ trợ:** SSMS, Visual Studio, Power BI Desktop
 
